@@ -194,13 +194,13 @@ nav {
 }
 .dynamic-word {
   color: #ff305b;
-    font-weight: 500;
+  font-weight: 500;
   width: 0;
   max-width: max-content;
   overflow: hidden;
   vertical-align: bottom;
-  animation: typing-erase 7s steps(1000, end) infinite;
-  -webkit-animation: typing-erase 7s steps(1000, end) infinite;
+  animation: typing-erase 5s steps(1000, end) infinite;
+  -webkit-animation: typing-erase 5s steps(1000, end) infinite;
 }
 @keyframes typing-erase {
   0% {
